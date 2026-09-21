@@ -13,7 +13,7 @@ The system separates the graphical client, application server, and relational da
 </p>
 
 <h3 align="center">
-  <a href="[YOUR_DEMO_LINK](https://drive.google.com/drive/search?q=.mov)">
+  <a href="https://drive.google.com/drive/search?q=.mov">
     ▶️ WATCH THE DEMO
   </a>
 </h3>
