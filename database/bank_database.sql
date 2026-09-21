@@ -1,4 +1,3 @@
-
 -- SignUp
 DELIMITER $$
 CREATE OR REPLACE PROCEDURE signUp(IN input_username VARCHAR(250), IN input_password VARCHAR(250))
