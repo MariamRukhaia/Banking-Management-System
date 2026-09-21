@@ -20,9 +20,9 @@ The system separates the graphical client, application server, and relational da
 
 ---
 
-## ✨ Features
+## Features
 
-### 🔐 Authentication
+### Authentication
 
 - User registration and login
 - Password hashing using **BCrypt**
@@ -30,14 +30,14 @@ The system separates the graphical client, application server, and relational da
 - Session-based user identification
 - Prepared SQL statements for database queries
 
-### 💳 Account Management
+### Account Management
 
 - View accounts associated with the authenticated user
 - Display current account balances
 - Support shared accounts
 - Validate account ownership before performing operations
 
-### 💰 Banking Operations
+### Banking Operations
 
 Users can perform core banking transactions including:
 
@@ -47,7 +47,7 @@ Users can perform core banking transactions including:
 - Prevent invalid or negative transaction amounts
 - Prevent withdrawals and transfers that exceed available funds
 
-### 🔄 Transaction Processing
+### Transaction Processing
 
 Transfers are executed using database transactions to preserve consistency.
 
@@ -62,7 +62,7 @@ The server:
 
 Critical banking operations are synchronized on the server to coordinate concurrent requests.
 
-### 📜 Transaction History
+### Transaction History
 
 The application maintains transaction records for:
 
@@ -75,13 +75,13 @@ The application maintains transaction records for:
 
 Users can view their transaction history directly through the application and export it to a local text file.
 
-### ✍️ Transfer Signature
+### Transfer Signature
 
 Money transfers include an interactive **Swing-based signature panel**, allowing users to draw a signature before submitting a transfer.
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 
 ```text
 ┌─────────────────────────────┐
@@ -123,7 +123,7 @@ Each incoming client connection is processed independently by the server, allowi
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 ### Client
 
@@ -162,7 +162,7 @@ The MySQL database stores the application's persistent data and provides stored 
 
 ---
 
-## 🔒 Security & Data Integrity
+## Security & Data Integrity
 
 Several mechanisms are used to improve authentication security and transaction integrity:
 
@@ -177,7 +177,7 @@ Several mechanisms are used to improve authentication security and transaction i
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Application
 
@@ -216,7 +216,7 @@ Banking-Management-System/
 
 ---
 
-## 🚀 Running Locally
+## Running Locally
 
 ### Prerequisites
 
@@ -286,7 +286,7 @@ The Swing application will open and connect to the local banking server.
 
 ---
 
-## 📌 Key Concepts Demonstrated
+## Key Concepts Demonstrated
 
 This project demonstrates practical implementation of:
 
@@ -305,7 +305,7 @@ This project demonstrates practical implementation of:
 
 ---
 
-## 👩‍💻 Authors
+## Authors
 
 **Mariam Rukhaia**  
 **Neel Dahake**
